@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  background: linear-gradient(237.42deg, #6d7bf5 -21.41%, #ffffff 65.48%);
+  /* background-image: linear-gradient(red, yellow); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+}
+
+.navbar-brand {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 60px;
+  color: #282828;
+}
+
+.menus {
+
+}
+
+ul {
+  display: flex;
+  gap: 70px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 74px;
+}
+
+
+
+main .left .grettings {
+  margin-top: 40px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 80px;
+  font-weight: bolder;
+  line-height: 70px;
+  letter-spacing: -0.06em;
+  color: #6632e4;
+}
+
+main .left .desc {
+  margin-top: 20px;
+  color: #3cba9c;
+}
+
+main .left button {
+  margin-top: 60px;
+  border: none;
+  border-radius: 16px;
+  padding: 16px;
+  width: 150px;
+  background-color: #6632e4;
+  color: #fff;
+}
+
+main .left .social-icons {
+  margin-top: 70px;
+  display: flex;
+  gap: 10px;
+  width: 30px;
+  height: 30px;
+  color: #3cba9c;
+}
+
+main .right{
+  /* background-color: red; */
+} 
+
+main .right .robot{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+main .right img{
+  width: 80%; 
+}
