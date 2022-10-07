@@ -92,7 +92,7 @@ main .right{
 main .right .robot{
   display: flex;
   align-items: center;
-  justify-content: end;
+  /* justify-content: end; */
 }
 
 main .right img{
