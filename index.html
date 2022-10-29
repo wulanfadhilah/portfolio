@@ -12,20 +12,23 @@
 <body>
   <div class="wrapper">
     <nav>
-      <div class="navbar-brand">WF</div>
+      <div class="navbar-brand">
+        <img src="assets/icons/logo.svg" alt="logo">
+      </div>
       <div class="menus">
+        <a class="menu" onclick="showMenu()"></a>
         <ul>
-          <li>Home</li>
-          <li>About Me</li>
-          <li>Experience</li>
-          <li>Contact</li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#aboutme">About Me</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
 
     <main>
       <!-- 1 -->
-      <div class="left">
+      <div class="left" id="home">
         <!-- Isi kotak 1 -->
         <div class="grettings">
           Hello
@@ -69,7 +72,133 @@
       </div>
     </main>
   </div>
+    
+  <div align="center" id="aboutme">
+    <div class="judul">
+     About Me
+    </div>
+   </div> 
 
+  <section>
+      <div class="left">
+        <div class="image">
+          <img src="assets/icons/me.svg" alt="me">
+        </div>
+      </div>
+      
+      <div class="right">
+        <div class="kotak">
+          <p>My name is Wulan Fadhilah.  My interest in the world of artificial intelligence began in July 2022 when I decided to try the Independent Campus program.
+            I am currently studying in semester 5 and currently running an independent campus program at one of the partners, namely Orbit Future Academy.  
+            During the program I have studied several artificial intelligence domains such as data science, computer vision, natural language processing, and reinforcement learning. 
+            My main focus right now is deepening artificial intelligence, especially in the Data Science domain.</p>
+          </div>
+        </div>
+    </section>
+
+    <div class="atas" align="center" id="experience">
+      <div class="judul">
+       Experience
+      </div>
+     </div> 
+
+     <section>
+      <div class="container flexbox">
+          <div class="kotak">
+              <img src="assets/icons/cx.svg" alt="">
+              <h1>UKM IT CYBERNETIX</h1>
+              <p>UKM IT Cybernetix is a student organization in UPI YPTK Padang
+                that is engaged in technology. I joined here since may 2022. 
+                Here i was once a Human Resource Staff at an event, namely CX-Solution</p>
+              <a href="https://drive.google.com/file/d/1NBR88br0kDoNy2i99Qs24Ca0yRpIpV7r/view?usp=drivesdk" target="_blank">
+              <button>Sertifikat</button>
+              </a>
+          </div>
+          <div class="kotak">
+              <img src="assets/icons/forstif.svg" alt="">
+              <h1>FORUM STUDI INFORMATIKA</h1>
+              <p>Forstif is  a forum for Informatics Engineering students at UPI YPTK Padang. 
+                In this forum, sharing is held about all things relates to the skills of the technology world. 
+                Here I have been a speaker about “website design”</p>
+              <a href="https://drive.google.com/file/d/1Ba3vGYvI-WneXff-tIVVoxhNi_ll-acM/view?usp=sharing" target="_blank">
+                <button>Sertifikat</button>
+              </a>
+          </div>
+      </div>  
+     </section>
+     <br>
+     <section>
+      <div class="container flexbox">
+          <div class="kotak">
+              <img src="assets/icons/dicoding.svg" alt="">
+              <h1>DICODING</h1>
+              <p>I took part in the Facilitation Program of the Digital Talent Development Agency for 2022 with DICODING. 
+                Here i learn the basics of web programming</p>
+              <a href="https://drive.google.com/file/d/1Jo1yPapWdXlOHjHx6lUwkdpt4zAZ-YSH/view?usp=share_link" target="_blank">
+                <button>Sertifikat</button>
+              </a>
+          </div>
+          <div class="kotak">
+              <img src="assets/icons/orbit.svg" alt="">
+              <h1>ORBIT FUTURE ACADEMY</h1>
+              <p>I followed the Independent Campus Program with Orbit Future Academy. 
+                Here I take the AI Mastery Class. I am currently running the program and it will end in December this year</p>
+              <a href="https://drive.google.com/file/d/1ESZ9Hr-OdAhqhAR60M1hTz4vXmBZbpYD/view?usp=share_link" target="_blank">
+                <button>Sertifikat</button>
+              </a>
+          </div>
+      </div>  
+     </section>
 </body>
+
+  <div class="kotak-quote" align="center">
+      <br><br>
+      <p>“The first step is to establish that something is possible; then probability will occur.”</p>
+      <p>– Elon Musk -</p>
+  </div>
+
+<br><br><br>
+
+
+  <div align="center">
+      <div class="judul">
+      Gallery
+      </div>
+      <img src="assets/icons/gallery.png" alt="">
+  </div> 
+
+  <footer>
+  <div align="center" id="contact">
+  <div class="penutup">
+    <div class="judul">
+    Contact
+    </div>
+  </div>
+  </div>
+
+  <div class="container flexbox">
+    <div class="kotak">
+      <input type="text" id="fname" name="firstname" placeholder="Your name"><br>
+      <input type="text" id="lname" name="lastname" placeholder="Your email"><br>
+      <textarea id="subject" name="subject" placeholder="Message" style="height:170px"></textarea><br>
+      <input type="submit" value="Send">
+    </div>
+    <div class="kotak">
+      <div class="peta">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.2606654495153!2d100.39545891427318!3d-0.9579633356251652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4b982fd776c89%3A0x4e9e1c8dcc9c55fb!2sUniversitas%20Putra%20Indonesia%20%22YPTK%22!5e0!3m2!1sid!2sid!4v1667036654929!5m2!1sid!2sid" 
+        width="587" height="378" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="copyright">
+    <p align="center">
+      Copyright &copy 2022 Portfolio by Wulan Fadhilah
+    </p>
+  </div>
+    
+
+</footer>
+
 
 </html>

@@ -6,39 +6,43 @@
   margin: 0;
   padding: 0;
 }
-html,
+
+
 body {
   width: 100%;
   background: linear-gradient(237.42deg, #6d7bf5 -21.41%, #ffffff 65.48%);
-  /* background-image: linear-gradient(red, yellow); */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+}
+
+.cek{
+  border-style: solid;
+  border-width: 1px;
 }
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 100px;
+  height: 90px;
 }
 
-.navbar-brand {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 40px;
-  line-height: 60px;
-  color: #282828;
-}
-
-.menus {
-
+.navbar-brand img {
+  margin-top: 10px;
+  position: flex;
+  width: 50%;
+  align-items: center;
 }
 
 ul {
   display: flex;
   gap: 70px;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
 }
 
 main {
@@ -48,8 +52,6 @@ main {
   margin-left: 74px;
   margin-top: 70px;
 }
-
-
 
 main .left .grettings {
   margin-top: 40px;
@@ -86,16 +88,165 @@ main .left .social-icons {
   color: #3cba9c;
 }
 
-main .right{
-  /* background-color: red; */
-} 
-
 main .right .robot{
   display: flex;
   align-items: center;
-  /* justify-content: end; */
 }
 
 main .right img{
   width: 80%; 
+}
+
+section{
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+  margin-top: 20px; 
+}
+
+section .left .image img{
+  display: flex;
+  width: 489px;
+  height: 378px;
+  margin-left: 74px;
+  margin-top: 10px;
+}
+
+section img{
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin-left: 74px;
+  /* margin-top: 10px; */
+}
+
+.judul{
+  display: flex;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #6632E4;
+  display: flex;
+  width: 247px;
+  height: 91px;
+  align-items: center;
+  /* margin-top: 5px; */
+  margin-left: 120px;
+  
+  /* margin-left: 70px;
+  margin-top: 10px;
+  margin-bottom: 10px; */
+}
+
+section .right .kotak{
+  width: 500px;
+  height: 330px;
+  align-items: center;
+  margin-left: 70px;
+  margin-top: 10px;
+  /* padding-right: 10px; */
+}
+
+section p{
+  text-align: justify;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px; 
+  line-height: 30px;
+  color: #143656;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  gap: 5rem;
+  text-align: justify;
+}
+
+.flexbox{
+  display: flex;
+  flex-direction: row;
+}
+
+.kotak{
+  width: 500px;
+}
+
+.kotak P{
+  font-size: 13px;
+}
+
+section button{
+  border: none;
+  border-radius: 30px;
+  padding: 10px;
+  width: 150px;
+  background-color: #3CBA9C;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+}
+
+footer .kotak-quote{
+  height: 135px;
+  background-color: #9DA6F9;
+  align-items: center;
+  margin-top: 100px;
+  color: white;
+}
+
+ img{
+  margin-top: 50px;
+  width: 100%;
+}
+
+footer{
+  background-color: #9DA6F9;
+  height: auto;
+  margin-top: 0px;
+}
+
+footer .chat{
+  margin-left: 150px;
+}
+
+footer .name{
+  width: 500px;
+}
+
+input[type=text], select, textarea {
+  width: 400px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  margin-left: 90px;
+  border-radius: 15px;
+  color: #143656;
+}
+
+input[type=submit] {
+  background-color: #3CBA9C;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  width: 100px;
+  margin-left: 410px;
+  margin-bottom: 10px;
+}
+
+.copyright{
+  margin-top: 30px;
+  background-color: #1E2138;
+  padding: 5px;
+  color: white;
+  font-weight: 100;
+  font-size: 12px;
 }
