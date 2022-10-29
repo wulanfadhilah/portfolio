@@ -94,14 +94,14 @@ main .right .robot{
 }
 
 main .right img{
-  width: 80%; 
+  width: 73%; 
 }
 
 section{
   display: flex;
   align-items: center;
   margin-left: 80px;
-  margin-top: 20px; 
+  margin-top: 0px; 
 }
 
 section .left .image img{
@@ -129,14 +129,11 @@ section img{
   color: #6632E4;
   display: flex;
   width: 247px;
-  height: 91px;
+  /* height: 91px; */
   align-items: center;
   /* margin-top: 5px; */
   margin-left: 120px;
-  
-  /* margin-left: 70px;
-  margin-top: 10px;
-  margin-bottom: 10px; */
+
 }
 
 section .right .kotak{
@@ -144,7 +141,7 @@ section .right .kotak{
   height: 330px;
   align-items: center;
   margin-left: 70px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   /* padding-right: 10px; */
 }
 
@@ -158,8 +155,7 @@ section p{
 }
 
 .container {
-  max-width: 1140px;
-  width: 100%;
+  width: 90%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
